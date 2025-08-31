@@ -1,7 +1,6 @@
 ---------- TextMessage (user) ----------
 ネパールへの3日間の旅行を計画してください。
-C:\Users\ta74k\Desktop\autogen-trip\.venv\Lib\site-packages\autogen_ext\models\openai\_openai_client.py:786: UserWarning: Could not find <think>..</think> field in model response content. No thought was extracted.
-  thought, content = parse_r1_content(content)
+
 ---------- TextMessage (planner_agent) ----------
 以下はネパールの3日間旅行プランの例です。自然、文化、絶景を効率的に組み合わせたルートです。
 
@@ -340,5 +339,6 @@ C:\Users\ta74k\Desktop\autogen-trip\.venv\Lib\site-packages\autogen_ext\models\o
 ---
 
 この計画を実行すれば、3日間でネパールの魂を凝縮体験できます。現地の人々の「जीवनकालो（人生の糸）」に触れながら、安全で豊かな旅 を！ 🌟
+
 
 TERMINATE
