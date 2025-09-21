@@ -18,7 +18,7 @@ def make_model_client(provider: str):
 
         return OpenAIChatCompletionClient(
             # ★ 無料枠モデルの例（時期により変更あり）
-            model="deepseek/deepseek-r1:free",
+            model="deepseek/deepseek-r1",
             api_key=api_key,
             base_url="https://openrouter.ai/api/v1",
 
@@ -89,3 +89,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
